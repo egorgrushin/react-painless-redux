@@ -7,7 +7,7 @@ This is [painless-redux](https://github.com/egorgrushin/painless-redux) adapter 
 ### Install:
 1. `npm i painless-redux react-painless-redux @reduxjs/toolkit`
 2. ```tsx
-    import { connectPainlessRedux } from 'react-painless-redux';
+    import { createPainlessRedux } from 'react-painless-redux';
     
    // When you don't have any redux store yet. If you have - adapt it
     const subRootReducer = (state = {}) => state;
@@ -28,7 +28,7 @@ This is [painless-redux](https://github.com/egorgrushin/painless-redux) adapter 
         StoreContext,
         useStore,
         STORE,
-    } = connectPainlessRedux(redux, addReducer);
+    } = createPainlessRedux(redux, addReducer);
 
    const App: React.FC = () => {
        return (
