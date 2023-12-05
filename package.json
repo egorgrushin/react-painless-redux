@@ -1,0 +1,48 @@
+{
+  "name": "react-painless-redux",
+  "version": "0.0.1",
+  "description": "Use painless-redux with react hooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Egor Grushin",
+  "homepage": "https://github.com/egorgrushin/react-painless-redux",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorgrushin/react-painless-redux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/egorgrushin/react-painless-redux/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "preversion": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^16",
+    "@reduxjs/toolkit": "^1.8",
+    "rxjs": "^6",
+    "painless-redux": "^4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^4.28.0",
+    "@typescript-eslint/parser": "^4.28.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react": "^17.0.2",
+    "@reduxjs/toolkit": "^1.8",
+    "rxjs": "^6",
+    "painless-redux": "^4.1",
+    "typescript": "^4.3.4"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "painless-redux"
+  ]
+}
