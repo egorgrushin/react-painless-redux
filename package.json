@@ -19,7 +19,7 @@
     "preversion": "tsc"
   },
   "peerDependencies": {
-    "react": "^16",
+    "react": "^17",
     "@reduxjs/toolkit": "^1.8",
     "rxjs": "^6",
     "painless-redux": "^4.1"
