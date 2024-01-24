@@ -21,7 +21,7 @@
   "peerDependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "painless-redux": "^4.1",
-    "react": "^17",
+    "react": "^17.0.0",
     "rxjs": "^6"
   },
   "devDependencies": {
